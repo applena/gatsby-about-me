@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from 'gatsby';
-import Header from "../components/header";
+import Layout from '../components/layout';
 
 export default () => (
-  <div style={{ color: `purple` }}>
-    <Link to="/contact/">Contact</Link>
-    <Header headerText="Hello Gatsby!" />
-    <h1>Hello Gatsby!</h1>
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-  </div>
+  <Layout>
+    <div style={{ color: `purple` }}>
+      <p>I like to do lots of things, but mostly build website.</p>
+      <p>I like pretty pictures.</p>
+      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    </div>
+  </Layout>
 )
